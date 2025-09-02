@@ -17,5 +17,47 @@
     <p>Tenemos servicio 24/7</p>
     <img src="imagenes/atencion al cliente.webp" width="40%">
    </div> 
+   <h2 style="text-align: center;">llena el formulario</h2>
+   <div style="display: flex; justify-content: center;">
+<form>
+    <label>nombre</label>
+    <input type="text" placeholder="EN MAYUSCULAS"> <br>
+    <label>celular:</label>
+    <input type="number"> <br>
+    <label>correo:</label>
+    <input type="email" required><br>
+    <label>fecha de nacimiento</label>
+    <input type="date" min="1980-01-31" max="2007-12-31"> <br>
+    <label>edad</label>
+    <input type="number" min="18" max="50"> <br>
+    <label>sube una foto</label>
+    <input type="file" accept=".jpg, .png, .jpeg, .pdf"> <br>
+    <label>selecciona un genero</label> <br>
+    <input type="radio" name="genero" value="Hombre">Hombre
+    <input type="radio" name="genero" value="Mujer">Mujer
+    <input type="radio" name="genero" value="Otro">Otro
+    <br>
+    <label>selecciona productos</label>
+    <input type="checkbox" name="producto" value="samsung">samsung
+    <input type="checkbox" name="producto" value="lenovo">lenovo
+    <input type="checkbox" name="producto" value="huawey">huawey
+    <br>
+    <label>¿como te contactamos?</label>
+   <select name="Contacto">
+    <option value="celular">celular</option>
+        <option value="correo">correo</option>
+        <option value="humo">humo</option>
+        <option value="paloma">paloma</option>
+   </select>
+        <br>
+        <label>mensaje</label>
+        <br>
+        <textarea name="mensaje"></textarea>
+        <br>
+
+    <button type="submit">enviar</button>
+    <button type="reset">borrar</button>
+</form>
+   </div>
 </body>
 </html>
